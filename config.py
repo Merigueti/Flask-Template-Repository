@@ -1,7 +1,6 @@
 from distutils.debug import DEBUG
-from pickle import TRUE
 
-DEBUG = TRUE
+DEBUG = True
 
 SQLALCHEMY_DATABASE_URI = 'sqlite:///C:\\Users\\rodme\\OneDrive\\Documents\\Projects\\Python\\flask\\Temperatura\\storage.db'
-SQLALCHEMY_TRACK_MODIFICATIONS = TRUE
+SQLALCHEMY_TRACK_MODIFICATIONS = True
